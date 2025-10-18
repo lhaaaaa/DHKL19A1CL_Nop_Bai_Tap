@@ -1,0 +1,253 @@
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github
+$ git cd 25174600018_Nguyen_Huy_Han_baitap/
+git: 'cd' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github
+$ cd 25174600018_Nguyen_Huy_Han_baitap/
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git branch -l
+  branch_1
+  branch_2
+  branch_3
+* main
+  –l
+  –list
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git branch -D branch_2
+Deleted branch branch_2 (was cecc5fc).
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git branch -D branch_3
+Deleted branch branch_3 (was 99e983d).
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git add .
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git commit -"2 branch was be delete"
+error: unknown switch `2'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u[<mode>]] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --[no-]quiet      suppress summary after successful commit
+    -v, --[no-]verbose    show diff in commit message template
+
+Commit message options
+    -F, --[no-]file <file>
+                          read message from file
+    --[no-]author <author>
+                          override author for commit
+    --[no-]date <date>    override date for commit
+    -m, --[no-]message <message>
+                          commit message
+    -c, --[no-]reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --[no-]reuse-message <commit>
+                          reuse message from specified commit
+    --[no-]fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --[no-]squash <commit>
+                          use autosquash formatted message to squash specified commit
+    --[no-]reset-author   the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --[no-]signoff    add a Signed-off-by trailer
+    -t, --[no-]template <file>
+                          use specified template file
+    -e, --[no-]edit       force edit of commit
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    --[no-]status         include status in commit message template
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --[no-]all        commit all changed files
+    -i, --[no-]include    add specified files to index for commit
+    --[no-]interactive    interactively add files
+    -p, --[no-]patch      interactively add changes
+    -U, --unified <n>     generate diffs with <n> lines context
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    -o, --[no-]only       commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --verify              opposite of --no-verify
+    --[no-]dry-run        show what would be committed
+    --[no-]short          show status concisely
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git commit -"two branch was be delete"
+fatal: could not read 'wo branch was be delete': No such file or directory
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git commit -"xoa branch"
+error: unknown switch `x'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u[<mode>]] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --[no-]quiet      suppress summary after successful commit
+    -v, --[no-]verbose    show diff in commit message template
+
+Commit message options
+    -F, --[no-]file <file>
+                          read message from file
+    --[no-]author <author>
+                          override author for commit
+    --[no-]date <date>    override date for commit
+    -m, --[no-]message <message>
+                          commit message
+    -c, --[no-]reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --[no-]reuse-message <commit>
+                          reuse message from specified commit
+    --[no-]fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --[no-]squash <commit>
+                          use autosquash formatted message to squash specified commit
+    --[no-]reset-author   the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --[no-]signoff    add a Signed-off-by trailer
+    -t, --[no-]template <file>
+                          use specified template file
+    -e, --[no-]edit       force edit of commit
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    --[no-]status         include status in commit message template
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --[no-]all        commit all changed files
+    -i, --[no-]include    add specified files to index for commit
+    --[no-]interactive    interactively add files
+    -p, --[no-]patch      interactively add changes
+    -U, --unified <n>     generate diffs with <n> lines context
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    -o, --[no-]only       commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --verify              opposite of --no-verify
+    --[no-]dry-run        show what would be committed
+    --[no-]short          show status concisely
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git commit -m "2 branch was be delete"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git petch
+git: 'petch' is not a git command. See 'git --help'.
+
+The most similar command is
+        fetch
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git fetch
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (7/7), 3.76 KiB | 349.00 KiB/s, done.
+From https://github.com/Hyan-25174600018/25174600018_Nguyen_Huy_Han_baitap
+   df8d28f..791e03e  main       -> origin/main
+   20f4d7d..51397cf  branch_1   -> origin/branch_1
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git push origin
+To https://github.com/Hyan-25174600018/25174600018_Nguyen_Huy_Han_baitap.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Hyan-25174600018/25174600018_Nguyen_Huy_Han_baitap.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git pull
+Updating df8d28f..791e03e
+Fast-forward
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git push origin
+Everything up-to-date
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git branch -l
+  branch_1
+* main
+  –l
+  –list
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git add .
+c
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git add .
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git commit -m "2 branch was be delete"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$ git push origin
+Everything up-to-date
+
+ADMIN@DESKTOP-IMHOP0R MINGW64 ~/Documents/Github/25174600018_Nguyen_Huy_Han_baitap (main)
+$
