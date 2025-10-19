@@ -1,0 +1,570 @@
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git clone https://github.com/Le-Quoc-Viet-25174600063-DKHL19A1CL/kho_test_19CL.git
+Cloning into 'kho_test_19CL'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ cd 25174600063_Le_Quoc_Viet_bai_tap
+bash: cd: 25174600063_Le_Quoc_Viet_bai_tap: No such file or directory
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git add readme.md
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git commit -m "Commit 1: Cap nhat readme.md theo yeu cau"
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git push main
+fatal: The current branch branch_5 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream main branch_5
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_1)
+$ git add text_branch_1.txt
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_1)
+$ git commit -m "Them text_branch_1.txt vao branch_1"
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_1)
+$ git push branch_1
+fatal: The current branch branch_1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream branch_1 branch_1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_1)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_1)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_2)
+$ git add text_branch_2.txt
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_2)
+$ git commit -m "Them text_branch_2.txt vao branch_2"
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_2)
+$ git push branch_2
+fatal: The current branch branch_2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream branch_2 branch_2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_2)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_2)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_3)
+$ git add text_branch_3.txt
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_3)
+$ git commit -m "Them text_branch_3.txt vao branch_3"
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_3)
+$ git push branch_3
+fatal: The current branch branch_3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream branch_3 branch_3
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_3)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_3)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ echo -e "Học phần: Tin cơ sở cho ngành KHDL\n\nGiảng viên: Lê Hằng Anh\n\nCras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git add text_branch_4.txt
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git commit -m "Them text_branch_4.txt vao branch_4"
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git push branch_4
+fatal: The current branch branch_4 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream branch_4 branch_4
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git branch -d branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'C:/Users/leequ'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git branch --list
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git branch -r
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git pull
+Auto packing the repository for optimum performance.
+See "git help gc" for manual housekeeping.
+Nothing new to pack.
+Checking connectivity: 38090, done.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> branch_4
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ mkdir main_folder
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ echo "Noi dung main_txt_1" > main_folder/main_txt_1.txt
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ echo "Noi dung main_txt_2" > main_folder/main_txt_2.txt
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ echo "Noi dung main_txt_3" > main_folder/main_txt_3.txt
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git add main_folder
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git commit -m "Them main_folder vao main"
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git push main
+fatal: The current branch branch_4 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream main branch_4
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ push.autoSetupRemote
+bash: push.autoSetupRemote: command not found
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git checkout branch_1
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git pull origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git push origin branch_1
+error: src refspec branch_1 does not match any
+error: failed to push some refs to 'origin'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git push branch_1
+fatal: The current branch branch_4 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream branch_1 branch_4
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git checkout branch_2
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git pull origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git push branch_2
+fatal: The current branch branch_4 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream branch_2 branch_4
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git checkout branch_3
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git pull origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git push branch_3
+fatal: The current branch branch_4 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream branch_3 branch_4
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git checkout branch_1
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_4)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git add text_branch_1.txt
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git commit -m "Cap nhat text_branch_1.txt trong branch_5"
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git push origin branch_5
+error: src refspec branch_5 does not match any
+error: failed to push some refs to 'origin'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git push branch_5
+fatal: The current branch branch_5 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream branch_5 branch_5
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git checkout branch_1
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git branch -d branch_5
+error: cannot delete branch 'branch_5' used by worktree at 'C:/Users/leequ'
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git push origin --delete branch_5
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git pull
+Auto packing the repository for optimum performance.
+See "git help gc" for manual housekeeping.
+Nothing new to pack.
+Checking connectivity: 38090, done.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> branch_5
+
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git branch -d branch_2
+error: branch 'branch_2' not found
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ git checkout main
+fatal: Unable to create 'C:/Users/leequ/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+leequ@LAPTOP-OF-DUCK MINGW64 ~/Downloads/Github (branch_5)
+$ touch Le_Quoc_Viet_doan_ma.txt
