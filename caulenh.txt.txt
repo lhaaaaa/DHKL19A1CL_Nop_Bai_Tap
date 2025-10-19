@@ -1,0 +1,438 @@
+admin@DESKTOP-KS4UU8J MINGW64 ~
+$ cd 25174600167_Trieu_Xuan_Thanh_bai_tap
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel plpor in ex vitae sodales. Donec et tempor orci. In pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt turpis. In sit amet tortor gravidae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa pharetra, etnsequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus." > README.md
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git commit -m " thay doi file "
+[main b3bfdcf]  thay doi file
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 625 bytes | 625.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git
+   8c0ec72..b3bfdcf  main -> main
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git checkuot -b "nhanh_1"
+git: 'checkuot' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git checkout -b "nhanh_1"
+Switched to a new branch 'nhanh_1'
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > file_nhanh1.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_1)
+$ git add .
+warning: in the working copy of 'file_nhanh1.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_1)
+$ git commit -m "tao nhanh 1"
+[nhanh_1 dde2d00] tao nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh1.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_1)
+$ git push origin nhanh_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 347 bytes | 347.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_1' on GitHub by visiting:
+remote:      https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap/pull/new/nhanh_1
+remote:
+To https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git
+ * [new branch]      nhanh_1 -> nhanh_1
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git checkout -b "nhanh_2"
+Switched to a new branch 'nhanh_2'
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > file_nhanh2.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_2)
+$ git add .
+warning: in the working copy of 'file_nhanh2.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_2)
+$ git commit -m "tao nhanh 2"
+[nhanh_2 7483cef] tao nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh2.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_2)
+$ git push origin nhanh_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_2' on GitHub by visiting:
+remote:      https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap/pull/new/nhanh_2
+remote:
+To https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git
+ * [new branch]      nhanh_2 -> nhanh_2
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git checkout -b "nhanh_3"
+Switched to a new branch 'nhanh_3'
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_3)
+$ echo"Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > file_nhanh3.txt
+bash: echoInteger sit amet nisi aliquam, tempor libero quis, cursus erat.: command not found
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > file_nhanh3.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_3)
+$ git add .
+warning: in the working copy of 'file_nhanh3.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_3)
+$ git commit -m "tao nhanh 3"
+[nhanh_3 02c8797] tao nhanh 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh3.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_3)
+$ git push origin nhanh_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 349 bytes | 349.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_3' on GitHub by visiting:
+remote:      https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap/pull/new/nhanh_3
+remote:
+To https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git
+ * [new branch]      nhanh_3 -> nhanh_3
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git checkout -b "nhanh_4"
+Switched to a new branch 'nhanh_4'
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > file_nhanh4.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ git add .
+warning: in the working copy of 'file_nhanh4.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ git commit -m "tao nhanh 4"
+[nhanh_4 ce4941a] tao nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh4.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ git push origin nhanh_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 339 bytes | 339.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_4' on GitHub by visiting:
+remote:      https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap/pull/new/nhanh_4
+remote:
+To https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git
+ * [new branch]      nhanh_4 -> nhanh_4
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -D nhanh_4
+Deleted branch nhanh_4 (was ce4941a).
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git checkout -l
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -l
+* main
+  nhanh_1
+  nhanh_2
+  nhanh_3
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git pull
+Already up to date.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ mkdir new_folder
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ cd new_folder
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap/new_folder (main)
+$ touch file.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap/new_folder (main)
+$ touch file1.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap/new_folder (main)
+$ touch file2.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap/new_folder (main)
+$ touch file3.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap/new_folder (main)
+$ git add .
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap/new_folder (main)
+$ git add new_folder
+fatal: pathspec 'new_folder' did not match any files
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap/new_folder (main)
+$ cd ..
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   new_folder/file1.txt
+        new file:   new_folder/file2.txt
+        new file:   new_folder/file3.txt
+
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git commit -m "them folder"
+[main 2fb913e] them folder
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new_folder/file1.txt
+ create mode 100644 new_folder/file2.txt
+ create mode 100644 new_folder/file3.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 347 bytes | 347.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git
+   b3bfdcf..2fb913e  main -> main
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git checkout nhanh_1
+Switched to branch 'nhanh_1'
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_1)
+$ git checkout -b nhanh_4
+Switched to a new branch 'nhanh_4'
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ ls
+README.md  file_nhanh1.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ echo "sua file" > file_nhanh1.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ git add .
+warning: in the working copy of 'file_nhanh1.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ git commit -m "sua doi file"
+[nhanh_4 689c921] sua doi file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ gi push origin nhanh_4
+bash: gi: command not found
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ git push origin nhanh_4
+To https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git
+ ! [rejected]        nhanh_4 -> nhanh_4 (non-fast-forward)
+error: failed to push some refs to 'https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git checkout nhanh_1
+Switched to branch 'nhanh_1'
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_1)
+$ git checkout -b nhanh_5
+Switched to a new branch 'nhanh_5'
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_5)
+$ ls
+README.md  file_nhanh1.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_5)
+$ echo "sua file" > file_nhanh1.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_5)
+$ git add .
+warning: in the working copy of 'file_nhanh1.txt', LF will be replaced by CRLF the next time Git touches it
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_5)
+$ git commit -m "sua doi file"
+[nhanh_5 d6bf351] sua doi file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_5)
+$ git push origin nhanh_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 301 bytes | 301.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_5' on GitHub by visiting:
+remote:      https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap/pull/new/nhanh_5
+remote:
+To https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap.git
+ * [new branch]      nhanh_5 -> nhanh_5
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (nhanh_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -D nhanh_5
+Deleted branch nhanh_5 (was d6bf351).
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -l
+* main
+  nhanh_1
+  nhanh_2
+  nhanh_3
+  nhanh_4
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -D nhanh_1
+Deleted branch nhanh_1 (was dde2d00).
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -D nhanh_2
+Deleted branch nhanh_2 (was 7483cef).
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -D nhanh_3
+Deleted branch nhanh_3 (was 02c8797).
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -D nhanh_4
+Deleted branch nhanh_4 (was 689c921).
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git add .\
+> git add .
+fatal: pathspec 'add' did not match any files
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git add .
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git fetch
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 2.83 KiB | 193.00 KiB/s, done.
+From https://github.com/txthanh25174600167-ui/25174600167_Trieu_Xuan_Thanh_bai_tap
+   2fb913e..6424d66  main       -> origin/main
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git pull
+Updating 2fb913e..6424d66
+Fast-forward
+ file_nhanh1.txt | 1 +
+ file_nhanh2.txt | 1 +
+ file_nhanh3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 file_nhanh1.txt
+ create mode 100644 file_nhanh2.txt
+ create mode 100644 file_nhanh3.txt
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git branch -l
+* main
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git add .
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+admin@DESKTOP-KS4UU8J MINGW64 ~/25174600167_Trieu_Xuan_Thanh_bai_tap (main)
