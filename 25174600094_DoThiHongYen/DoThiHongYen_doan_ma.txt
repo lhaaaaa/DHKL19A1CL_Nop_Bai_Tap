@@ -1,0 +1,431 @@
+
+yen@DESKTOP-F3OASCV MINGW64 ~
+$ git clone https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+Cloning into '25174600094_Do_Thi_Hong_Yen_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+yen@DESKTOP-F3OASCV MINGW64 ~
+$ cd 25174600094_Do_Thi_Hong_Yen_bai_tap
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at
+lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel
+placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra
+viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt
+turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus
+porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse
+platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien
+consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat,
+interdum justo a, aliquam risus." > README.md
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git commit -m "thay doi file"
+[main b5773ff] thay doi file
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 625 bytes | 625.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+   f301c00..b5773ff  main -> main
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git checkout -b "nhanh_1"
+Switched to a new branch 'nhanh_1'
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > file_nhanh1.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_1)
+$ git add .
+warning: in the working copy of 'file_nhanh1.txt', LF will be replaced by CRLF the next time Git touches it
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_1)
+$ git commit -m "tao nhanh 1"
+[nhanh_1 ce503f4] tao nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh1.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_1)
+$ git push origin nhanh_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_1' on GitHub by visiting:
+remote:      https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap/pull/new/nhanh_1
+remote:
+To https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+ * [new branch]      nhanh_1 -> nhanh_1
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git checkout -b "nhanh_2"
+Switched to a new branch 'nhanh_2'
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > file_nhanh2.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_2)
+$ git add .
+warning: in the working copy of 'file_nhanh2.txt', LF will be replaced by CRLF the next time Git touches it
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_2)
+$ git commit -m "tao nhanh 2"
+[nhanh_2 876743c] tao nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh2.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_2)
+$ git push origin nhanh_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_2' on GitHub by visiting:
+remote:      https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap/pull/new/nhanh_2
+remote:
+To https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+ * [new branch]      nhanh_2 -> nhanh_2
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git checkout -b "nhanh_3"
+Switched to a new branch 'nhanh_3'
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > file_nhanh3.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_3)
+$ git add .
+warning: in the working copy of 'file_nhanh3.txt', LF will be replaced by CRLF the next time Git touches it
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_3)
+$ git commit -m "tao nhanh 3"
+[nhanh_3 9c7c1a3] tao nhanh 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh3.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_3)
+$ git push origin nhanh_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 346 bytes | 346.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_3' on GitHub by visiting:
+remote:      https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap/pull/new/nhanh_3
+remote:
+To https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+ * [new branch]      nhanh_3 -> nhanh_3
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git checkout -b "nhanh_4"
+Switched to a new branch 'nhanh_4'
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > file_nhanh4.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_4)
+$ git add .
+warning: in the working copy of 'file_nhanh4.txt', LF will be replaced by CRLF the next time Git touches it
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_4)
+$ git commit -m "tao nahnh 4"
+[nhanh_4 203a294] tao nahnh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_nhanh4.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_4)
+$ git push origin nhanh_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 336 bytes | 336.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_4' on GitHub by visiting:
+remote:      https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap/pull/new/nhanh_4
+remote:
+To https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+ * [new branch]      nhanh_4 -> nhanh_4
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_4)
+$ git check out main
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -d nhanh_4
+error: the branch 'nhanh_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D nhanh_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -D nhanh_4
+Deleted branch nhanh_4 (was 203a294).
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git pull
+Already up to date.
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -l
+* main
+  nhanh_1
+  nhanh_2
+  nhanh_3
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ mkdir new_folder
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ cd new_folder
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap/new_folder (main)
+$ touch file1.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap/new_folder (main)
+$ touch file2.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap/new_folder (main)
+$ touch file3.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap/new_folder (main)
+$ cd..
+bash: cd..: command not found
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap/new_folder (main)
+$ cd ..
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git add new_folder
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git commit -m "them folder"
+[main cff0b63] them folder
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new_folder/file1.txt
+ create mode 100644 new_folder/file2.txt
+ create mode 100644 new_folder/file3.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git push origin new_folder
+error: src refspec new_folder does not match any
+error: failed to push some refs to 'https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git'
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 345 bytes | 345.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+   b5773ff..cff0b63  main -> main
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ dit checkout nhanh_1
+bash: dit: command not found
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git checkout nhanh_1
+Switched to branch 'nhanh_1'
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_1)
+$ git checkout -b "nhanh_5"
+Switched to a new branch 'nhanh_5'
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_5)
+$ ls
+README.md  file_nhanh1.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam
+malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor
+tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti
+sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae
+egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula.
+Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae
+tristique enim." > file_nhanh1.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_5)
+$ git add ''
+fatal: empty string is not a valid pathspec. please use . instead if you meant to match all paths
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_5)
+$ git add .
+warning: in the working copy of 'file_nhanh1.txt', LF will be replaced by CRLF the next time Git touches it
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_5)
+$ git commit -m "sua doi file"
+[nhanh_5 8a28853] sua doi file
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_5)
+$ git push origin nhanh_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 672 bytes | 672.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'nhanh_5' on GitHub by visiting:
+remote:      https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap/pull/new/nhanh_5
+remote:
+To https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+ * [new branch]      nhanh_5 -> nhanh_5
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (nhanh_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -d nhanh_5
+error: the branch 'nhanh_5' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D nhanh_5'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -D nhanh_5
+Deleted branch nhanh_5 (was 8a28853).
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -l
+* main
+  nhanh_1
+  nhanh_2
+  nhanh_3
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -D nhanh_1
+Deleted branch nhanh_1 (was ce503f4).
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -D nhanh_2
+Deleted branch nhanh_2 (was 876743c).
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -D nhanh_3
+Deleted branch nhanh_3 (was 9c7c1a3).
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git add .
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git push origin
+To https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git fetch
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 4.71 KiB | 178.00 KiB/s, done.
+From https://github.com/dthyen25174600094-arch/25174600094_Do_Thi_Hong_Yen_bai_tap
+   cff0b63..c62489a  main       -> origin/main
+   ce503f4..2e0744f  nhanh_1    -> origin/nhanh_1
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git pull
+Updating cff0b63..c62489a
+Fast-forward
+ file_nhanh1.txt | 9 +++++++++
+ file_nhanh2.txt | 1 +
+ file_nhanh3.txt | 1 +
+ file_nhanh4.txt | 1 +
+ 4 files changed, 12 insertions(+)
+ create mode 100644 file_nhanh1.txt
+ create mode 100644 file_nhanh2.txt
+ create mode 100644 file_nhanh3.txt
+ create mode 100644 file_nhanh4.txt
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git branch -l
+* main
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git add .
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git commit -m "xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+yen@DESKTOP-F3OASCV MINGW64 ~/25174600094_Do_Thi_Hong_Yen_bai_tap (main)
