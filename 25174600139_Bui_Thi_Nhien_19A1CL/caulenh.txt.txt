@@ -1,0 +1,392 @@
+thien@Haru MINGW64 ~/test git (master)
+$ git clone https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap.git
+Cloning into '25174600139_BuiThi_Nhien_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+thien@Haru MINGW64 ~/test git (master)
+$ cd 25174600139_BuiThi_Nhien_bai_tap
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ echo " oLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at
+lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut vel
+placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In pharetra
+viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum tincidunt
+turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus
+porta nulla sed gravida. Aliquam ultricies dapibus ante eget molestie. In hac habitasse
+platea dictumst. Aliquam aliquam enim at massa pharetra, et vestibulum sapien
+consequat. Donec accumsan quis metus at pellentesque. Morbi quis felis placerat,
+interdum justo a, aliquam risus " > README.md
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git commit -m " Thay doi file "
+[main 06e766d]  Thay doi file
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 650 bytes | 650.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap.git
+   110875b..06e766d  main -> main
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git checkout -b " text_branch_1_1 "
+fatal: ' text_branch_1_1 ' is not a valid branch name
+hint: See man git check-ref-format
+hint: Disable this message with "git config set advice.refSyntax false"
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git checkout -b "text_branch_1_1"
+Switched to a new branch 'text_branch_1_1'
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_1_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > file_text_branch_1_1.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_1_1)
+$ git add .
+warning: in the working copy of 'file_text_branch_1_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_1_1)
+$ git commit -m " them nhanh 1 "
+[text_branch_1_1 09ee5e3]  them nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_text_branch_1_1.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_1_1)
+$ git push origin text_branch_1_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 379 bytes | 379.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_1_1' on GitHub by visiting:
+remote:      https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap/pull/new/text_branch_1_1
+remote:
+To https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap.git
+ * [new branch]      text_branch_1_1 -> text_branch_1_1
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_1_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git checkout -b "text_branch_2_2"
+Switched to a new branch 'text_branch_2_2'
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_2_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > file_text_branch_2_2.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_2_2)
+$ git add .
+warning: in the working copy of 'file_text_branch_2_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_2_2)
+$ git commit -m " them nhanh 2 "
+[text_branch_2_2 6afc974]  them nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_text_branch_2_2.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_2_2)
+$ git push origin text_branch_2_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 372 bytes | 372.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_2_2' on GitHub by visiting:
+remote:      https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap/pull/new/text_branch_2_2
+remote:
+To https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap.git
+ * [new branch]      text_branch_2_2 -> text_branch_2_2
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_2_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git checkout -b "text_branch_3_3"
+Switched to a new branch 'text_branch_3_3'
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_3_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > file_text_branch_3_3.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_3_3)
+$ git add .
+warning: in the working copy of 'file_text_branch_3_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_3_3)
+$ git commit -m " them nhanh 3 "
+[text_branch_3_3 4e9a740]  them nhanh 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_text_branch_3_3.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_3_3)
+$ git push origin text_branch_3_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 381 bytes | 381.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_3_3' on GitHub by visiting:
+remote:      https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap/pull/new/text_branch_3_3
+remote:
+To https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap.git
+ * [new branch]      text_branch_3_3 -> text_branch_3_3
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_3_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git checkout -b "text_branch_4_4"
+Switched to a new branch 'text_branch_4_4'
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_4_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > file_text_branch_4_4.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_4_4)
+$ git add .
+warning: in the working copy of 'file_text_branch_4_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_4_4)
+$ git commit -m "them nhanh 4 "
+[text_branch_4_4 57acf9b] them nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file_text_branch_4_4.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_4_4)
+$ git push origin text_branch_4_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 371 bytes | 371.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_4_4' on GitHub by visiting:
+remote:      https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap/pull/new/text_branch_4_4
+remote:
+To https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap.git
+ * [new branch]      text_branch_4_4 -> text_branch_4_4
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_4_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git branch -D text_branch_4_4
+Deleted branch text_branch_4_4 (was 57acf9b).
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git branch -l
+* main
+  text_branch_1_1
+  text_branch_2_2
+  text_branch_3_3
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ mkdir new_folder
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ cd new_folder
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap/new_folder (main)
+$ touch file1.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap/new_folder (main)
+$ touch file2.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap/new_folder (main)
+$ touch file3.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap/new_folder (main)
+$ git add new_folder
+fatal: pathspec 'new_folder' did not match any files
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap/new_folder (main)
+$ cd
+
+thien@Haru MINGW64 ~ (master)
+$ git add new_folder
+fatal: Unable to create 'C:/Users/thien/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+thien@Haru MINGW64 ~ (master)
+$thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git add new_folder
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git commit -m " them folder "
+[main 1135562]  them folder
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new_folder/file1.txt
+ create mode 100644 new_folder/file2.txt
+ create mode 100644 new_folder/file3.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 368 bytes | 368.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap.git
+   06e766d..1135562  main -> main
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git checkout text_branch_1_1
+Switched to branch 'text_branch_1_1'
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_1_1)
+$ git checkout -b text_branch_5_5
+Switched to a new branch 'text_branch_5_5'
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_5_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam
+malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor
+tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti
+sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae
+egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula.
+Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae
+tristique enim." > file_text_branch_1_1.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_5_5)
+$ git add .
+warning: in the working copy of 'file_text_branch_1_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_5_5)
+$ git commit -m " Sua doi file "
+[text_branch_5_5 0901a37]  Sua doi file
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_5_5)
+$ git push origin text_branch_5_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 707 bytes | 353.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'text_branch_5_5' on GitHub by visiting:
+remote:      https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap/pull/new/text_branch_5_5
+remote:
+To https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap.git
+ * [new branch]      text_branch_5_5 -> text_branch_5_5
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (text_branch_5_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git branch -D text_branch_5_5
+Deleted branch text_branch_5_5 (was 0901a37).
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git branch -l
+* main
+  text_branch_1_1
+  text_branch_2_2
+  text_branch_3_3
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git branch -D text_branch_1_1
+Deleted branch text_branch_1_1 (was 09ee5e3).
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git branch -D text_branch_2_2
+Deleted branch text_branch_2_2 (was 6afc974).
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git branch -D text_branch_3_3
+Deleted branch text_branch_3_3 (was 4e9a740).
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git add .
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git commit -m " Xoa file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git fetch
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 4.75 KiB | 194.00 KiB/s, done.
+From https://github.com/bui-thi-nhien-25174600139-DHKL19A1/25174600139_BuiThi_Nhien_bai_tap
+   1135562..92b221d  main            -> origin/main
+   09ee5e3..03d218f  text_branch_1_1 -> origin/text_branch_1_1
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git pull
+Updating 1135562..92b221d
+Fast-forward
+ file_text_branch_1_1.txt | 9 +++++++++
+ file_text_branch_2_2.txt | 1 +
+ file_text_branch_3_3.txt | 1 +
+ file_text_branch_4_4.txt | 1 +
+ 4 files changed, 12 insertions(+)
+ create mode 100644 file_text_branch_1_1.txt
+ create mode 100644 file_text_branch_2_2.txt
+ create mode 100644 file_text_branch_3_3.txt
+ create mode 100644 file_text_branch_4_4.txt
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git branch -l
+* main
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git add .
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git commit -m " xoa file "
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
+$ git push origin
+Everything up-to-date
+
+thien@Haru MINGW64 ~/test git/25174600139_BuiThi_Nhien_bai_tap (main)
