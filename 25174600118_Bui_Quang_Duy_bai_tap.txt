@@ -1,0 +1,13 @@
+MSV: 25174600118
+Ho va Ten: Bui Quang Duy
+Mon: Tin co so cho nganh KHDL
+Bai: 10 - Doan ma
+Ngay nop: 2025-10-21
+
+# Add, commit, push an toàn
+git add 25174600118_Bui_Quang_Duy_bai_tap.txt
+git commit -m "Add submission 25174600118_Bui_Quang_Duy_bai_tap"
+git pull origin main --rebase
+git push origin main
+
+b
